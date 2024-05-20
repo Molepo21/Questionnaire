@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <h1>Questionnaire</h1>
+
+        <h2>BRAND</h2>
+
+        <label for="culturalValues">What are your cultural values?</label>
+        <textarea id="culturalValues" name="culturalValues" rows="4"></textarea>
+
+        <label for="slogan">What is your slogan?</label>
+        <input type="text" id="slogan" name="slogan">
+
+        <label for="coreValues">What are the core values of your brand?</label>
+        <textarea id="coreValues" name="coreValues" rows="4"></textarea>
+
+        <label for="purpose">What is the specific purpose of your site?</label>
+        <textarea id="purpose" name="purpose" rows="4"></textarea>
+
+        <label for="websiteType">What website type best fits your brand?</label>
+        <select id="websiteType" name="websiteType">
+            <option value="ecommerce">E-commerce</option>
+            <option value="portfolio">Portfolio</option>
+            <option value="blog">Blog</option>
+            <option value="corporate">Corporate</option>
+            <option value="nonprofit">Nonprofit</option>
+        </select>
+
+        <label for="audience">Who is your audience?</label>
+        <textarea id="audience" name="audience" rows="4"></textarea>
+
+        <label for="imagePortray">What image do you want your site to portray?</label>
+        <textarea id="imagePortray" name="imagePortray" rows="4"></textarea>
+
+        <h2>WEBSITE SPECS</h2>
+
+        <label for="budget">What is your budget?</label>
+        <input type="number" id="budget" name="budget">
+
+        <label for="numPages">How many webpages do you want on your site?</label>
+        <input type="number" id="numPages" name="numPages">
+
+        <label for="functions">Which functions/features do you want for your website?</label>
+        <textarea id="functions" name="functions" rows="4"></textarea>
+
+        <label>Do you want your website to have a database?</label><br>
+        <input type="radio" id="dbYes" name="database" value="yes">
+        <label for="dbYes" style="display: inline;">Yes</label>
+        <input type="radio" id="dbNo" name="database" value="no">
+        <label for="dbNo" style="display: inline;">No</label>
+
+        <label>Would you want your website to have an AI integration?</label><br>
+        <input type="radio" id="aiYes" name="aiIntegration" value="yes">
+        <label for="aiYes" style="display: inline;">Yes</label>
+        <input type="radio" id="aiNo" name="aiIntegration" value="no">
+        <label for="aiNo" style="display: inline;">No</label>
+
+        <label>Do you want your website to have a built-in dark and light mode feature?</label><br>
+        <input type="radio" id="modeYes" name="modeFeature" value="yes">
+        <label for="modeYes" style="display: inline;">Yes</label>
+        <input type="radio" id="modeNo" name="modeFeature" value="no">
+        <label for="modeNo" style="display: inline;">No</label>
+
+        <label>Do you have a domain for your website?</label><br>
+        <input type="radio" id="domainYes" name="domain" value="yes">
+        <label for="domainYes" style="display: inline;">Yes</label>
+        <input type="radio" id="domainNo" name="domain" value="no">
+        <label for="domainNo" style="display: inline;">No</label>
+
+        <h2>DESIGN</h2>
+
+        <label for="competitors">What do you like about your competitors' websites?</label>
+        <textarea id="competitors" name="competitors" rows="4"></textarea>
+
+        <label for="templateReference">Do you have any template or reference of the type of websites you would like?</label>
+        <textarea id="templateReference" name="templateReference" rows="4"></textarea>
+
+        <label for="productImages">Do you have images ready for the products you offer?</label><br>
+        <input type="radio" id="imagesYes" name="productImages" value="yes">
+        <label for="imagesYes" style="display: inline;">Yes</label>
+        <input type="radio" id="imagesNo" name="productImages" value="no">
+        <label for="imagesNo" style="display: inline;">No</label>
+
+        <label>Would you like themes that users can switch between?</label><br>
+        <input type="radio" id="themesYes" name="themes" value="yes">
+        <label for="themesYes" style="display: inline;">Yes</label>
+        <input type="radio" id="themesNo" name="themes" value="no">
+        <label for="themesNo" style="display: inline;">No</label>
+
+        <label>Do you want a page where users can share their reviews about the brand?</label><br>
+        <input type="radio" id="reviewsYes" name="reviews" value="yes">
+        <label for="reviewsYes" style="display: inline;">Yes</label>
+        <input type="radio" id="reviewsNo" name="reviews" value="no">
+        <label for="reviewsNo" style="display: inline;">No</label>
+
+        <label for="preferredTemplate">From the three listed templates which designs do you prefer?</label>
+        <select id="preferredTemplate" name="preferredTemplate">
+            <option value="mrp">MRP</option>
+            <option value="truworths">Truworths</option>
+            <option value="nike">Nike</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
